@@ -1,0 +1,14 @@
+{
+  "name": "saucedemo-test-automation",
+  "version": "1.0.0",
+  "description": "Playwright test automation for saucedemo.com",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}
